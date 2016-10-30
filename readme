@@ -1,0 +1,13 @@
+microblog 初始版本，采用flask、sqlachemy实现简单的用户登录验证、权限管理、点评、发送微博、分页功能以及数据库迁移功能。后期将添加点赞、全局搜索功能，敬请期待。
+
+刚开始数据库创建：
+python manage.py db init  # 首先初始化
+
+
+后续改动数据库models.py:
+python manage.py db migrate   # 迁移
+python manage.py db upgrade   # 更新
+
+
+运行：
+python manage.py runserver --port=XXXX  # 端口号自己设定
