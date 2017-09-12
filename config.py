@@ -9,7 +9,7 @@ class Config:
     MAIL_PORT = 25
     MAIL_USE_TLS = True
     MAIL_USERNAME = '13032893650m@sina.cn'
-    MAIL_PASSWORD = 'uestcywc895423'
+    MAIL_PASSWORD = 'xxxxx'
     FLASKY_MAIL_SUBJECT_PREFIX = '[Flasky]'
     FLASKY_MAIL_SENDER = '13032893650m@sina.cn'
     FLASKY_ADMIN = '13032893650m@sina.cn'
